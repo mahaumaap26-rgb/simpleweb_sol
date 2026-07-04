@@ -9,7 +9,11 @@
   "dependencies": {
     "next": "16.2.0",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "framer-motion": "^12.23.12"
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "@types/react": "^19.1.8",
+    "@types/node": "^24.0.0"
   }
 }
