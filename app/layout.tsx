@@ -1,8 +1,4 @@
-export const metadata = {
-  title: "Simple Web Solutions | Sinduja Ranganathamani",
-  description:
-    "We design modern, fast, SEO-friendly websites that help businesses grow.",
-};
+import "./globals.css";
 
 export default function RootLayout({
   children,
@@ -11,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-white text-slate-900 scroll-smooth">
+      <body className="bg-gradient-to-b from-slate-50 to-white text-gray-900">
         {children}
       </body>
     </html>
